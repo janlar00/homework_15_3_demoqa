@@ -1,4 +1,4 @@
-package com.demoqa;
+package com.demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
 
@@ -50,9 +50,9 @@ public class AutomationPracticeFormTest {
                 text("01 February,1970"),
                 text("Arts"),
                 text("Music"),
-                text("Test.jpg"),
+                text("img/Test.jpg"),
                 text("Some address 1"),
                 text("NCR Gurgaon"));
-       // $("#closeLargeModal").click();
+        // $("#closeLargeModal").click();
     }
 }
