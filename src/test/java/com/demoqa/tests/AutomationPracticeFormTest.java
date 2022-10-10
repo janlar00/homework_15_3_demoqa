@@ -26,7 +26,6 @@ public class AutomationPracticeFormTest {
         //Configuration.holdBrowserOpen = true;
     }
 
-    @Disabled
     @Test
     void fillFormTest() {
         open("/automation-practice-form");
